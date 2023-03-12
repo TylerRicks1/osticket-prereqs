@@ -40,7 +40,7 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 <img src="https://i.imgur.com/RPoVYi2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-First step is creating our Windows 10 virtual Machine(VM) on Azure. This can be done on Azure by opening Virtual Machines->Create->Windows 10 with 2-4V Virtual CPUs /create username and password->Review->Create. 
+First step is creating our Windows 10 virtual Machine(VM) on Azure. This can be done on Azure by opening Virtual Machines->Create->Windows 10 with 2-4 Virtual CPUs /create username and password->Review->Create. 
 </p>
 <br />
 
