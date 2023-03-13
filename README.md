@@ -122,7 +122,7 @@ Open IIS as admin. Open PHP Manager->Register new PHP ENTER: C:->PHP->php-cgi.ex
 <img src="https://i.imgur.com/gDHbkt7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Download/install osTicket using this [link](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6). Open osticket->upload. Extract the upload file into C:->Inetpub->wwwroot. Now rename the "upload" folder to "osTicket". Now, return to ISS and restart the server. 
+Download/install osTicket using this [link](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6). Open osticket->upload. Extract the upload file into C:->Inetpub->wwwroot. Now rename the "upload" folder to "osTicket". Now, return to IIS and restart the server. 
 </p>
 <br />
 
