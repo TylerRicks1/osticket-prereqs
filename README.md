@@ -147,7 +147,7 @@ Now we need to enable some extensions so that our osTicket can operate. In IIS o
 <img src="https://i.imgur.com/KpoAt9i.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Next rename the file "Ostsampleconfig" to "Ostconfig". This file can be found in Browse->wwwroot->include->Ostsampleconfig.
+Next rename the file "Ostsampleconfig" to "Ost-config". This file can be found in Browse->wwwroot->include->Ostsampleconfig.
 </p>
 <br />
 
