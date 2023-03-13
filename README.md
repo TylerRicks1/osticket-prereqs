@@ -139,7 +139,7 @@ In IIS->sites->default Web Services->osTicket->*80 to open osTicket in your inte
 <img src="https://i.imgur.com/rSdryq4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Now we need to enable some extensions so that our osTicket can operate. In IIS open sites->osTicket->PHP Manager->Enable or disable extensions, enable extensions: ph.pop.cash.dll, phpImap.dll, phpintl.dll. Refresh the osTicket tab in your internet explorer. 
+Now we need to enable some extensions so that our osTicket can operate. In IIS open sites->osTicket->PHP Manager->Enable or disable extensions, enable extensions: php_opcache.dil, phpImap.dll, phpintl.dll. Refresh the osTicket tab in your internet explorer. 
 </p>
 <br />
 
