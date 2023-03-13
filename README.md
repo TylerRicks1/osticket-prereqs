@@ -110,8 +110,8 @@ Create a folder on the C drive and name it PHP. Then dowload and extract PHP 7.3
  Setup Launch Configuration Wizard (after install) -> Standard Configuration -> Password1
   
 <img src="https://i.imgur.com/3DPgXGH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>.
-<img src="https://i.imgur.com/UKU95B5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/twqaevN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/xPtMirk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/VpjW1NF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Open IIS as admin. Open PHP Manager->Register new PHP ENTER: C:->PHP->php-cgi.exe. Now restart the server. 
@@ -119,7 +119,7 @@ Open IIS as admin. Open PHP Manager->Register new PHP ENTER: C:->PHP->php-cgi.ex
 <br />
 
 <p>
-<img src="https://i.imgur.com/gDHbkt7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/omgXxeO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Download/install osTicket using this [link](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6). Open osticket->upload. Extract the upload file into C:->Inetpub->wwwroot. Now rename the "upload" folder to "osTicket". Now, return to IIS and restart the server. 
@@ -127,7 +127,7 @@ Download/install osTicket using this [link](https://drive.google.com/drive/u/0/f
 <br />
 
 <p>
-<img src="https://i.imgur.com/VPQS3V4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/d1twbJt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 In IIS->sites->default Web Services->osTicket->*80 to open osTicket in your internet browser.
@@ -135,8 +135,8 @@ In IIS->sites->default Web Services->osTicket->*80 to open osTicket in your inte
 <br />
 
 <p>
-<img src="https://i.imgur.com/1edLrbk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/rSdryq4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/A8HkBeS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/pj4rDsi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Now we need to enable some extensions so that our osTicket can operate. In IIS open sites->osTicket->PHP Manager->Enable or disable extensions, enable extensions: php_opcache.dil, phpImap.dll, phpintl.dll. Refresh the osTicket tab in your internet explorer. 
@@ -144,7 +144,7 @@ Now we need to enable some extensions so that our osTicket can operate. In IIS o
 <br />
 
 <p>
-<img src="https://i.imgur.com/KpoAt9i.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/VoqugcF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Next rename the file "Ostsampleconfig" to "Ost-config". This file can be found in Browse->wwwroot->include->Ostsampleconfig.
@@ -152,7 +152,7 @@ Next rename the file "Ostsampleconfig" to "Ost-config". This file can be found i
 <br />
 
 <p>
-<img src="https://i.imgur.com/ceHaTx7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/vphiBeH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Now, right-click "ostconfig"->open properties->security->advanced->disable inheritance->remove all permissions. Then select "EVERYONE" and apply.
@@ -160,7 +160,7 @@ Now, right-click "ostconfig"->open properties->security->advanced->disable inher
 <br />
 
 <p>
-<img src="https://i.imgur.com/qInGkfb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/VEReR8k.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Download/install heidi from this [link](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6). Next right-click->create new->database->and name it osTicket.
@@ -168,7 +168,7 @@ Download/install heidi from this [link](https://drive.google.com/drive/u/0/folde
 <br />
 
 <p>
-<img src="https://i.imgur.com/t8X3F9s.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/TUQA3J8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Open osTicket in your internet browser and fill out the installation details and install.
@@ -176,7 +176,7 @@ Open osTicket in your internet browser and fill out the installation details and
 <br />
 
 <p>
-<img src="https://i.imgur.com/hDFRuXm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/BuKVpjg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Next delete the folder named "setup" this folder is in osTicket->Setup. 
@@ -184,7 +184,7 @@ Next delete the folder named "setup" this folder is in osTicket->Setup.
 <br />
 
 <p>
-<img src="https://i.imgur.com/zb2lSeh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/j90dBfY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Next, right-click "ostconfig"->properties->security->advanced->disable inheritance->modify->read only. Then select "EVERYONE" and apply. 
