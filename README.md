@@ -37,7 +37,7 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
 <h2>Installation Steps</h2>
 <p>
-<img src="https://imgur.com/a/AJYh5U9" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/gw1eh6W.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 First step is creating our Windows 10 virtual Machine(VM) on Azure. This can be done on Azure by opening Virtual Machines->Create->Windows 10 with 2-4 Virtual CPUs /create username and password->Review->Create. 
@@ -45,7 +45,7 @@ First step is creating our Windows 10 virtual Machine(VM) on Azure. This can be 
 <br />
 
 <p>
-<img src="https://i.imgur.com/eyelds7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/lKFGfUb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Open Remote Desktop Connection then connect to your virtual machine by typing the VM's ip address into Remote Desktop Connection. Use the credentials you created for the virtual machine to login.
@@ -53,7 +53,7 @@ Open Remote Desktop Connection then connect to your virtual machine by typing th
 <br />
 
 <p>
-<img src="https://i.imgur.com/tlDjrht.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/NY8HmDl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 In the VM, right-click the windows menu->Run->Control->
@@ -61,7 +61,7 @@ In the VM, right-click the windows menu->Run->Control->
 <br />
 
 <p>
-<img src="https://i.imgur.com/Ei0U4Jd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/voWlYYp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Programs->
@@ -69,7 +69,7 @@ Programs->
 <br />
 
 <p>
-<img src="https://i.imgur.com/yJu56Ra.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/7ZnhzzF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Turn Windows features on or off-> Internet Information Services->World Wide Web->Application Development features->CGI
@@ -77,7 +77,7 @@ Turn Windows features on or off-> Internet Information Services->World Wide Web-
 <br />
 
 <p>
-<img src="https://i.imgur.com/L0lHN84.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/7Iqm9Uy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Activating CGI allows us to host a webpage on our own network. Test this by typing 127.0.0.1 into google.com in your VM. The webpage that loads up should look like the screenshot above.
@@ -85,24 +85,31 @@ Activating CGI allows us to host a webpage on our own network. Test this by typi
 <br />
 
 <p>
-<img src="https://i.imgur.com/M4Sr5aK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/L1SM68G.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Next, download/install VC_Redlist. This is a program needed for PHP to operate. Here is the [link](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/lXoJo2x.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/5MLCxwJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Download/install MSQL Server from [here](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6). This is the server your osTicket will be operating on. Name the server osTicket and enter username:root password:Password and press enter to create a server for your osTicket to use.
+Next, download/install PHP Manager & Rewrite Module  Here is the [link](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/dj9YHOD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>.
+<img src="https://i.imgur.com/fdZPh2o.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/4aaIh6P.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Create a folder on the C drive and name it PHP. Then dowload and extract PHP 7.3.8 and unzip the contents into the PHP folder we just created [here](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6).
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/Cojbwm8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+                            
+  Download and install VC redist.x86.exe
+<img src="https://i.imgur.com/cWDdaTP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ Download and install My SQL 5.5.62 Typical->
+ Setup Launch Configuration Wizard (after install) -> Standard Configuration -> Password1
+  
+<img src="https://i.imgur.com/3DPgXGH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>.
 <img src="https://i.imgur.com/UKU95B5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/twqaevN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -185,10 +192,10 @@ Next, right-click "ostconfig"->properties->security->advanced->disable inheritan
 <br />
 
 <p>
-<img src="https://i.imgur.com/KshWQ4z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/lfVp5fP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Next open this link and log in to osTicket with the credentials you created when filling out the osTicket installation page.
+Next open this link http://localhost/osTicket/scp/login.php and log in to osTicket with the credentials you created when filling out the osTicket installation page.
 </p>
 <br />
-You have now installed osTicket on your system.
+Congrulations!!! You have now installed osTicket on your VM.
